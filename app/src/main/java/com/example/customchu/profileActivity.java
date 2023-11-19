@@ -3,16 +3,12 @@ package com.example.customchu;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
-import android.graphics.Color;
 import android.net.Uri;
 import android.os.Bundle;
-import android.util.Log;
-import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ImageView;
-import android.widget.Toast;
 
 import com.google.android.gms.auth.api.signin.GoogleSignIn;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
@@ -23,7 +19,7 @@ import com.squareup.picasso.Picasso;
 public class profileActivity extends AppCompatActivity {
     ImageButton profileBack;
     ImageView profilePicture;
-    EditText firstName, lastName, email;
+    EditText firstName, studentNumber, email;
     Button logout, changePass;
     GoogleSignInOptions gso;
     GoogleSignInClient gsc;
@@ -40,7 +36,7 @@ public class profileActivity extends AppCompatActivity {
         profileBack = findViewById(R.id.profileBack);
         profilePicture = findViewById(R.id.profilepicture);
         firstName = findViewById(R.id.firstname);
-        lastName = findViewById(R.id.lastname);
+        studentNumber = findViewById(R.id.studentNumber);
         email = findViewById(R.id.email);
         changePass = findViewById(R.id.changepassword);
         logout = findViewById(R.id.toLogout);
@@ -74,17 +70,17 @@ public class profileActivity extends AppCompatActivity {
 
             email.setTextColor(getResources().getColor(R.color.black));
             firstName.setTextColor(getResources().getColor(R.color.black));
-            lastName.setTextColor(getResources().getColor(R.color.black));
+            studentNumber.setTextColor(getResources().getColor(R.color.black));
 
             profilePicture.setImageURI(Uri.parse(profilePicUrl));
             email.setText(account.getEmail());
-            firstName.setText(account.getGivenName());
-            lastName.setText(account.getFamilyName());
+            firstName.setText(account.getGivenName() + " " + account.getFamilyName());
+            //studentNumber.setText(account.getFamilyName());
 
             // make the fields read-only
             email.setEnabled(false);
             firstName.setEnabled(false);
-            lastName.setEnabled(false);
+            //studentNumber.setEnabled(false);
 
 
             // disable the change password
