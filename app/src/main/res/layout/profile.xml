@@ -3,12 +3,17 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+<<<<<<< HEAD
     android:layout_height="match_parent"
     android:textAlignment="center">
+=======
+    android:layout_height="match_parent">
+>>>>>>> 02bf6f1c0e67947310a9314bffe20f8383681a4a
 
     <View
         android:id="@+id/view2"
         android:layout_width="wrap_content"
+<<<<<<< HEAD
         android:layout_height="100dp"
         android:background="@color/blue" />
 
@@ -24,6 +29,20 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/view2"
         app:layout_constraintTop_toTopOf="@+id/view2" />
+=======
+        android:layout_height="wrap_content"
+        android:background="@color/blue" />
+
+    <ImageView
+        android:id="@+id/backview2"
+        android:layout_width="405dp"
+        android:layout_height="562dp"
+        android:background="@drawable/form"
+        android:paddingLeft="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+>>>>>>> 02bf6f1c0e67947310a9314bffe20f8383681a4a
 
     <ImageButton
         android:id="@+id/profileBack"
@@ -37,6 +56,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/icons8_back_30" />
 
+<<<<<<< HEAD
     <!--    <ImageButton-->
     <!--        android:id="@+id/profilepicture"-->
     <!--        android:layout_width="wrap_content"-->
@@ -47,12 +67,25 @@
     <!--        app:layout_constraintBottom_toTopOf="@+id/backview2"-->
     <!--        app:layout_constraintEnd_toEndOf="parent"-->
     <!--        app:layout_constraintStart_toStartOf="@+id/view2" />-->
+=======
+<!--    <ImageButton-->
+<!--        android:id="@+id/profilepicture"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginBottom="-50dp"-->
+<!--        android:background="#00FFFFFF"-->
+<!--        android:cropToPadding="false"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/backview2"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/view2" />-->
+>>>>>>> 02bf6f1c0e67947310a9314bffe20f8383681a4a
 
     <EditText
         android:id="@+id/firstname"
         android:layout_width="300dp"
         android:layout_height="60dp"
         android:layout_marginTop="40dp"
+<<<<<<< HEAD
         android:fontFamily="@font/interreg"
         android:hint="First Name"
         android:paddingLeft="10dp"
@@ -66,12 +99,24 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/profilepicture" />
+=======
+        android:background="@drawable/border"
+        android:fontFamily="@font/interreg"
+        android:hint="First Name"
+        android:paddingLeft="10dp"
+        android:textSize="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/view2"
+        app:layout_constraintTop_toBottomOf="@+id/profilepicture"
+        android:textColorHint="@color/black"/>
+>>>>>>> 02bf6f1c0e67947310a9314bffe20f8383681a4a
 
     <EditText
         android:id="@+id/studentNumber"
         android:layout_width="300dp"
         android:layout_height="60dp"
         android:layout_marginTop="40dp"
+<<<<<<< HEAD
         android:fontFamily="@font/interreg"
         android:hint="Student Number"
         android:paddingLeft="10dp"
@@ -81,6 +126,14 @@
         android:textColorHint="?android:attr/textColorPrimary"
         android:textColorLink="?android:attr/textColorPrimary"
         android:textSize="20sp"
+=======
+        android:background="@drawable/border"
+        android:fontFamily="@font/interreg"
+        android:hint="Student Number"
+        android:paddingLeft="10dp"
+        android:textColorHint="@color/black"
+        android:textSize="12dp"
+>>>>>>> 02bf6f1c0e67947310a9314bffe20f8383681a4a
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/firstname" />
@@ -93,8 +146,11 @@
         android:clickable="true"
         android:fontFamily="@font/interreg"
         android:text="Change Password"
+<<<<<<< HEAD
         android:textColor="@color/white"
         android:textColorHint="?android:attr/textColorPrimary"
+=======
+>>>>>>> 02bf6f1c0e67947310a9314bffe20f8383681a4a
         android:textSize="18dp"
         app:backgroundTint="@color/blue"
         app:cornerRadius="5dp"
@@ -126,10 +182,15 @@
         android:layout_width="300dp"
         android:layout_height="60dp"
         android:layout_marginTop="40dp"
+<<<<<<< HEAD
+=======
+        android:background="@drawable/border"
+>>>>>>> 02bf6f1c0e67947310a9314bffe20f8383681a4a
         android:ems="10"
         android:hint="Email"
         android:inputType="textEmailAddress"
         android:paddingLeft="10dp"
+<<<<<<< HEAD
         android:textAlignment="center"
         android:textAppearance="?android:attr/textColorPrimary"
         android:textColor="?android:attr/textColorPrimary"
@@ -140,15 +201,42 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/studentNumber" />
+=======
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/view2"
+        app:layout_constraintTop_toBottomOf="@+id/studentNumber"
+        android:textColorHint="@color/black"/>
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="256dp"
+        android:layout_height="138dp"
+        android:layout_marginBottom="40dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/backview2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view2"
+        app:srcCompat="@drawable/cclogo2" />
+>>>>>>> 02bf6f1c0e67947310a9314bffe20f8383681a4a
 
     <ImageView
         android:id="@+id/profilepicture"
         android:layout_width="119dp"
         android:layout_height="113dp"
+<<<<<<< HEAD
         android:layout_marginTop="40dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view2"
+=======
+        android:layout_marginTop="140dp"
+        app:layout_constraintBottom_toTopOf="@+id/backview2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view2"
+>>>>>>> 02bf6f1c0e67947310a9314bffe20f8383681a4a
         tools:srcCompat="@tools:sample/avatars" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

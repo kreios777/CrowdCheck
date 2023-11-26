@@ -1,8 +1,16 @@
 
 package com.example.customchu;
 
+<<<<<<< HEAD
 import android.content.Intent;
 import android.os.Bundle;
+=======
+import static androidx.constraintlayout.helper.widget.MotionEffect.TAG;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.util.Log;
+>>>>>>> 02bf6f1c0e67947310a9314bffe20f8383681a4a
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.TextView;
@@ -18,8 +26,15 @@ import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.database.DataSnapshot;
+<<<<<<< HEAD
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+=======
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
+>>>>>>> 02bf6f1c0e67947310a9314bffe20f8383681a4a
 
 
 public class home extends AppCompatActivity {
@@ -60,7 +75,11 @@ public class home extends AppCompatActivity {
         });
 
         toMap.setOnClickListener(view -> {
+<<<<<<< HEAD
             Intent intent = new Intent(home.this, updatedlibrary.class); //mapActivity or updatedlibrary
+=======
+            Intent intent = new Intent(home.this, mapActivity.class);
+>>>>>>> 02bf6f1c0e67947310a9314bffe20f8383681a4a
             startActivity(intent);
         });
 

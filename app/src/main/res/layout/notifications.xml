@@ -3,7 +3,12 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+<<<<<<< HEAD
     android:layout_height="match_parent">
+=======
+    android:layout_height="match_parent"
+    android:background="@color/bg">
+>>>>>>> 02bf6f1c0e67947310a9314bffe20f8383681a4a
 
     <View
         android:id="@+id/view5"
@@ -41,7 +46,10 @@
         android:layout_width="370dp"
         android:layout_height="100dp"
         android:layout_marginTop="40dp"
+<<<<<<< HEAD
         app:tint="?android:attr/textColorPrimary"
+=======
+>>>>>>> 02bf6f1c0e67947310a9314bffe20f8383681a4a
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view5"
@@ -52,7 +60,10 @@
         android:layout_width="370dp"
         android:layout_height="100dp"
         android:layout_marginTop="20dp"
+<<<<<<< HEAD
         android:tint="?android:attr/textColorPrimary"
+=======
+>>>>>>> 02bf6f1c0e67947310a9314bffe20f8383681a4a
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3"
@@ -83,8 +94,13 @@
         android:layout_width="35dp"
         android:layout_height="35dp"
         android:layout_marginStart="20dp"
+<<<<<<< HEAD
         android:scaleType="fitXY"
         android:tint="?android:attr/textColorPrimary"
+=======
+        android:layout_marginLeft="20dp"
+        android:scaleType="fitXY"
+>>>>>>> 02bf6f1c0e67947310a9314bffe20f8383681a4a
         app:layout_constraintBottom_toBottomOf="@+id/imageView3"
         app:layout_constraintStart_toStartOf="@+id/imageView3"
         app:layout_constraintTop_toTopOf="@+id/imageView3"
@@ -95,8 +111,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
+<<<<<<< HEAD
         android:text="Default"
         android:textColor="?android:attr/textColorPrimary"
+=======
+        android:layout_marginLeft="20dp"
+        android:text="Default"
+>>>>>>> 02bf6f1c0e67947310a9314bffe20f8383681a4a
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/textView9"
         app:layout_constraintStart_toEndOf="@+id/imageView6"
@@ -107,9 +128,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
+<<<<<<< HEAD
         android:layout_marginTop="10dp"
         android:text="Ring or vibrate based on settings."
         android:textColor="?android:attr/textColorPrimary"
+=======
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:text="Ring or vibrate based on settings."
+>>>>>>> 02bf6f1c0e67947310a9314bffe20f8383681a4a
         app:layout_constraintBottom_toTopOf="@+id/imageView3"
         app:layout_constraintStart_toEndOf="@+id/imageView6"
         app:layout_constraintTop_toBottomOf="@+id/textView8" />
@@ -119,8 +146,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
+<<<<<<< HEAD
         android:text="Push Notifications"
         android:textColor="?android:attr/textColorPrimary"
+=======
+        android:layout_marginLeft="20dp"
+        android:text="Push Notifications"
+>>>>>>> 02bf6f1c0e67947310a9314bffe20f8383681a4a
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/textView10"
         app:layout_constraintStart_toStartOf="@+id/imageView7"
@@ -131,9 +163,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
+<<<<<<< HEAD
         android:layout_marginTop="8dp"
         android:text="Recieve push notifications."
         android:textColor="?android:attr/textColorPrimary"
+=======
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="8dp"
+        android:text="Recieve push notifications."
+>>>>>>> 02bf6f1c0e67947310a9314bffe20f8383681a4a
         app:layout_constraintBottom_toTopOf="@+id/imageView7"
         app:layout_constraintStart_toStartOf="@+id/imageView7"
         app:layout_constraintTop_toBottomOf="@+id/textView11" />

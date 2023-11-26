@@ -5,6 +5,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+<<<<<<< HEAD
+=======
+    <View
+        android:id="@+id/view4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/bg"
+        app:circularflow_radiusInDP="30dp" />
+>>>>>>> 02bf6f1c0e67947310a9314bffe20f8383681a4a
 
     <ImageView
         android:id="@+id/imageView8"
@@ -15,13 +24,21 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
+<<<<<<< HEAD
         app:layout_constraintTop_toTopOf="parent"
+=======
+        app:layout_constraintTop_toTopOf="@+id/view4"
+>>>>>>> 02bf6f1c0e67947310a9314bffe20f8383681a4a
         app:srcCompat="@drawable/orb" />
 
     <TextView
         android:id="@+id/userGreet"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
+=======
+        android:layout_marginTop="48dp"
+>>>>>>> 02bf6f1c0e67947310a9314bffe20f8383681a4a
         android:fontFamily="@font/interreg"
         android:text="User"
         android:textColor="@color/white"
@@ -30,7 +47,13 @@
         app:layout_constraintBottom_toTopOf="@+id/location"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.01"
+<<<<<<< HEAD
         app:layout_constraintStart_toEndOf="@+id/greetings" />
+=======
+        app:layout_constraintStart_toEndOf="@+id/greetings"
+        app:layout_constraintTop_toTopOf="@+id/view4"
+        app:layout_constraintVertical_bias="0.51" />
+>>>>>>> 02bf6f1c0e67947310a9314bffe20f8383681a4a
 
     <TextView
         android:id="@+id/greetings"
@@ -43,7 +66,11 @@
         android:textSize="30dp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="@+id/toScanQR"
+<<<<<<< HEAD
         app:layout_constraintTop_toTopOf="@+id/imageView8" />
+=======
+        app:layout_constraintTop_toTopOf="@+id/view4" />
+>>>>>>> 02bf6f1c0e67947310a9314bffe20f8383681a4a
 
     <TextView
         android:id="@+id/location"
@@ -63,16 +90,25 @@
         android:layout_marginTop="30dp"
         android:background="#00FFFFFF"
         android:scaleType="fitCenter"
+<<<<<<< HEAD
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/location"
         app:srcCompat="@drawable/container"
         app:tint="#ECECEC" />
+=======
+        app:layout_constraintEnd_toEndOf="@+id/view4"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="@+id/view4"
+        app:layout_constraintTop_toBottomOf="@+id/location"
+        app:srcCompat="@drawable/container" />
+>>>>>>> 02bf6f1c0e67947310a9314bffe20f8383681a4a
 
     <ImageButton
         android:id="@+id/toMap"
         android:layout_width="312dp"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android:layout_marginStart="49dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="50dp"
@@ -83,6 +119,15 @@
         app:layout_constraintTop_toBottomOf="@+id/toScanQR"
         app:srcCompat="@drawable/container"
         app:tint="#ECECEC" />
+=======
+        android:background="#00FFFFFF"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="@+id/view4"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="@+id/view4"
+        app:layout_constraintTop_toBottomOf="@+id/toScanQR"
+        app:srcCompat="@drawable/container" />
+>>>>>>> 02bf6f1c0e67947310a9314bffe20f8383681a4a
 
     <TextView
         android:id="@+id/textlabel"
@@ -126,8 +171,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
+<<<<<<< HEAD
         android:fontFamily="@font/interreg"
         android:shadowRadius="5"
+=======
+        android:layout_marginLeft="30dp"
+        android:fontFamily="@font/interreg"
+>>>>>>> 02bf6f1c0e67947310a9314bffe20f8383681a4a
         android:text="Scan to enter"
         android:textColor="@color/border"
         android:textSize="16dp"
@@ -155,8 +205,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
+<<<<<<< HEAD
         android:fontFamily="@font/interreg"
         android:text="Check Occupancy"
+=======
+        android:layout_marginLeft="30dp"
+        android:fontFamily="@font/interreg"
+        android:text="Check occupancy"
+>>>>>>> 02bf6f1c0e67947310a9314bffe20f8383681a4a
         android:textColor="@color/border"
         android:textSize="16dp"
         app:layout_constraintBottom_toTopOf="@+id/toMap"
@@ -167,10 +223,16 @@
         android:id="@+id/view7"
         android:layout_width="0dp"
         android:layout_height="88dp"
+<<<<<<< HEAD
         android:background="#ECECEC"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+=======
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/view4"
+        tools:layout_editor_absoluteX="0dp" />
+>>>>>>> 02bf6f1c0e67947310a9314bffe20f8383681a4a
 
     <ImageButton
         android:id="@+id/profilebtn"
@@ -178,10 +240,17 @@
         android:layout_height="60dp"
         android:background="#00FFFFFF"
         android:scaleType="fitCenter"
+<<<<<<< HEAD
         app:layout_constraintBottom_toBottomOf="@+id/notificationbtn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/notificationbtn"
         app:layout_constraintTop_toTopOf="@+id/notificationbtn"
+=======
+        app:layout_constraintBottom_toBottomOf="@+id/view4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/notificationbtn"
+        app:layout_constraintTop_toTopOf="@+id/view7"
+>>>>>>> 02bf6f1c0e67947310a9314bffe20f8383681a4a
         app:srcCompat="@drawable/icons8_user_90" />
 
     <ImageButton
@@ -190,10 +259,17 @@
         android:layout_height="60dp"
         android:background="#00FFFFFF"
         android:scaleType="fitCenter"
+<<<<<<< HEAD
         app:layout_constraintBottom_toBottomOf="@+id/notificationbtn"
         app:layout_constraintEnd_toStartOf="@+id/notificationbtn"
         app:layout_constraintStart_toStartOf="@+id/view7"
         app:layout_constraintTop_toTopOf="@+id/notificationbtn"
+=======
+        app:layout_constraintBottom_toBottomOf="@+id/view4"
+        app:layout_constraintEnd_toStartOf="@+id/notificationbtn"
+        app:layout_constraintStart_toStartOf="@+id/view7"
+        app:layout_constraintTop_toTopOf="@+id/view7"
+>>>>>>> 02bf6f1c0e67947310a9314bffe20f8383681a4a
         app:srcCompat="@drawable/icons8_home_90" />
 
     <ImageButton
@@ -202,11 +278,18 @@
         android:layout_height="60dp"
         android:background="#00FFFFFF"
         android:scaleType="fitCenter"
+<<<<<<< HEAD
         app:layout_constraintBottom_toBottomOf="parent"
+=======
+        app:layout_constraintBottom_toBottomOf="@+id/view4"
+>>>>>>> 02bf6f1c0e67947310a9314bffe20f8383681a4a
         app:layout_constraintEnd_toEndOf="@+id/view7"
         app:layout_constraintStart_toStartOf="@+id/view7"
         app:layout_constraintTop_toTopOf="@+id/view7"
         app:srcCompat="@drawable/icons8_notification_90" />
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 02bf6f1c0e67947310a9314bffe20f8383681a4a
 </androidx.constraintlayout.widget.ConstraintLayout>
